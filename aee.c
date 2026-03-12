@@ -39,7 +39,7 @@ int main() {
     printf("Coeficiente x: %d\n", x0);
     printf("Coeficiente y: %d\n", y0);
 
-    ///////////////////INVERSO MODULAR///////////////////////////////////
+    //INVERSO MODULAR
     if (mcd == 1) {
         int inverso = x0 % m_original;
 
@@ -53,3 +53,4 @@ int main() {
 
     return 0;
 }
+
